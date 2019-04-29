@@ -49,6 +49,7 @@ namespace HashLister
 
 		private void ShowAbout()
 		{
+			new AboutBox().ShowDialog();
 		}
 
 		private void ToolStripButtonAddFiles_Click(object sender, EventArgs e)

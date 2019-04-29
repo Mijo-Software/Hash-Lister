@@ -66,6 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="HashListerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HashListerForm.resx">
       <DependentUpon>HashListerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +135,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="hashtag.ico" />
+    <None Include="Resources\hashtag-256.png" />
+    <None Include="Resources\hashtag-96.png" />
+    <None Include="Resources\hashtag-72.png" />
+    <None Include="Resources\hashtag-64.png" />
+    <None Include="Resources\hashtag-48.png" />
+    <None Include="Resources\hashtag-24.png" />
+    <None Include="Resources\hashtag-16.png" />
+    <None Include="Resources\hashtag-128.png" />
+    <None Include="Resources\hashtag-80.png" />
+    <None Include="Resources\hashtag-32.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
