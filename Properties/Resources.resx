@@ -121,31 +121,55 @@
   <data name="fugue-folder-open-document-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fugue-folder-open-document-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fugue-folder-open-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fugue-folder-open-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fugue-application-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fugue-application-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fugue-cross-script-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fugue-cross-script-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fugue-arrow-circle-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fugue-arrow-circle-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fugue-cross-circle-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fugue-cross-circle-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fugue-disk-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fugue-disk-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fugue-property-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fugue-property-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hashtag-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hashtag-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fugue-door-open-in-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fugue-door-open-in-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hashtag-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hashtag-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fugue-disk-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-disk-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-folder-open-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-folder-open-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-cross-circle-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-cross-circle-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-cross-script-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-cross-script-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-navigation-000-button-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-navigation-000-button-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-navigation-180-button-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-navigation-180-button-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-application-blue-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-application-blue-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-globe-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-globe-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-home-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-home-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-disk-black-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-disk-black-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-disks-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-disks-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue-disk-small-16-shadowless" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue-disk-small-16-shadowless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

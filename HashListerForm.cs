@@ -1,13 +1,37 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Windows.Forms;
 
 namespace HashLister
 {
 	public partial class HasListerForm : Form
 	{
+		private string statusBarBackup = "";
+
 		public HasListerForm()
 		{
 			InitializeComponent();
+		}
+
+		private void HasListerForm_Load(object sender, EventArgs e)
+		{
+			toolStripStatusLabelInformation.Visible = false;
+			toolStripProgressBar.Visible = false;
+			toolStripStatusLabelCancel.Visible = false;
+		}
+
+		private string Satusbar
+		{
+			get
+			{
+				return toolStripStatusLabelInformation.Text;
+			}
+			set
+			{
+				statusBarBackup = toolStripStatusLabelInformation.Text;
+				toolStripStatusLabelInformation.Text = value;
+			}
 		}
 
 		private void AddFiles()
@@ -16,6 +40,53 @@ namespace HashLister
 
 		private void AddFolder()
 		{
+
+			DialogResult dialogResult = folderBrowserDialog.ShowDialog();
+			if (dialogResult == DialogResult.OK)
+			{
+				toolStripStatusLabelInformation.Visible = true;
+				Satusbar = "Scanning...";
+				toolStripProgressBar.Visible = true;
+				toolStripProgressBar.Style = ProgressBarStyle.Marquee;
+				string path = folderBrowserDialog.SelectedPath;
+
+				List<string> files = new List<string>();
+				getFilesRecursive(path);
+
+				void getFilesRecursive(string sDir)
+				{
+					try
+					{
+						foreach (string d in Directory.GetDirectories(sDir))
+						{
+							getFilesRecursive(d);
+						}
+						foreach (var file in Directory.GetFiles(sDir))
+						{
+							//This is where you would manipulate each file found, e.g.:
+							DoAction(file);
+						}
+					}
+					catch (System.Exception e)
+					{
+						MessageBox.Show(e.Message);
+					}
+				}
+
+				void DoAction(string filepath)
+				{
+					files.Add(filepath);
+					Satusbar = files.Capacity.ToString() + " files found.";
+				}
+
+
+				//string path = folderBrowserDialog.SelectedPath;
+				//string[] files = Directory.GetFiles(path, "*.*", SearchOption.TopDirectoryOnly);
+
+
+				toolStripProgressBar.Visible = false;
+				Satusbar = files.Capacity.ToString() + " files found.";
+			}
 		}
 
 		private void ClearList()

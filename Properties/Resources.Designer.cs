@@ -73,6 +73,16 @@ namespace HashLister.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fugue_application_blue_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-application-blue-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fugue_arrow_circle_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-arrow-circle-16-shadowless", resourceCulture);
@@ -113,6 +123,36 @@ namespace HashLister.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fugue_disk_black_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-disk-black-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_disk_small_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-disk-small-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_disks_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-disks-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fugue_door_open_in_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-door-open-in-16-shadowless", resourceCulture);
@@ -136,6 +176,46 @@ namespace HashLister.Properties {
         internal static System.Drawing.Bitmap fugue_folder_open_document_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-folder-open-document-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_globe_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-globe-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_home_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-home-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_navigation_000_button_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-navigation-000-button-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_navigation_180_button_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue-navigation-180-button-16-shadowless", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

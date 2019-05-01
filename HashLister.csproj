@@ -135,6 +135,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="hashtag.ico" />
+    <None Include="Resources\fugue-disk-small-16-shadowless.png" />
+    <None Include="Resources\fugue-disks-16-shadowless.png" />
+    <None Include="Resources\fugue-disk-black-16-shadowless.png" />
+    <None Include="Resources\fugue-home-16-shadowless.png" />
+    <None Include="Resources\fugue-globe-16-shadowless.png" />
+    <None Include="Resources\fugue-application-blue-16-shadowless.png" />
+    <None Include="Resources\fugue-navigation-180-button-16-shadowless.png" />
+    <None Include="Resources\fugue-navigation-000-button-16-shadowless.png" />
     <None Include="Resources\hashtag-256.png" />
     <None Include="Resources\hashtag-96.png" />
     <None Include="Resources\hashtag-72.png" />
