@@ -1,6 +1,6 @@
 ﻿namespace HashLister
 {
-	partial class HasListerForm
+	partial class HashListerForm
 	{
 		/// <summary>
 		/// Erforderliche Designervariable.
@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HasListerForm));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HashListerForm));
 			this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
 			this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
 			this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
@@ -69,6 +69,7 @@
 			this.toolStripMenuItemSaveAsHtml = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripButtonProperties = new System.Windows.Forms.ToolStripButton();
 			this.toolStripButtonExit = new System.Windows.Forms.ToolStripButton();
+			this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
 			this.toolStripContainer.BottomToolStripPanel.SuspendLayout();
 			this.toolStripContainer.ContentPanel.SuspendLayout();
 			this.toolStripContainer.TopToolStripPanel.SuspendLayout();
@@ -302,7 +303,7 @@
 			this.toolStripMenuItemSaveItemAsText.Name = "toolStripMenuItemSaveItemAsText";
 			this.toolStripMenuItemSaveItemAsText.ShortcutKeyDisplayString = "Alt+T";
 			this.toolStripMenuItemSaveItemAsText.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.T)));
-			this.toolStripMenuItemSaveItemAsText.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItemSaveItemAsText.Size = new System.Drawing.Size(164, 22);
 			this.toolStripMenuItemSaveItemAsText.Text = "As &text";
 			this.toolStripMenuItemSaveItemAsText.ToolTipText = "As text";
 			this.toolStripMenuItemSaveItemAsText.Click += new System.EventHandler(this.ToolStripMenuItemSaveItemAsText_Click);
@@ -313,7 +314,7 @@
 			this.toolStripMenuItemSaveItemAsCsv.Name = "toolStripMenuItemSaveItemAsCsv";
 			this.toolStripMenuItemSaveItemAsCsv.ShortcutKeyDisplayString = "Alt+C";
 			this.toolStripMenuItemSaveItemAsCsv.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
-			this.toolStripMenuItemSaveItemAsCsv.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItemSaveItemAsCsv.Size = new System.Drawing.Size(164, 22);
 			this.toolStripMenuItemSaveItemAsCsv.Text = "As &CSV";
 			this.toolStripMenuItemSaveItemAsCsv.ToolTipText = "As CSV";
 			this.toolStripMenuItemSaveItemAsCsv.Click += new System.EventHandler(this.ToolStripMenuItemSaveItemAsCsv_Click);
@@ -324,7 +325,7 @@
 			this.toolStripMenuItemSaveItemAsHtml.Name = "toolStripMenuItemSaveItemAsHtml";
 			this.toolStripMenuItemSaveItemAsHtml.ShortcutKeyDisplayString = "Alt+M";
 			this.toolStripMenuItemSaveItemAsHtml.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.M)));
-			this.toolStripMenuItemSaveItemAsHtml.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItemSaveItemAsHtml.Size = new System.Drawing.Size(164, 22);
 			this.toolStripMenuItemSaveItemAsHtml.Text = "As HT&ML";
 			this.toolStripMenuItemSaveItemAsHtml.ToolTipText = "As HTML";
 			this.toolStripMenuItemSaveItemAsHtml.Click += new System.EventHandler(this.ToolStripMenuItemSaveItemAsHtml_Click);
@@ -360,7 +361,7 @@
 			this.toolStripMenuItemRefresh.Name = "toolStripMenuItemRefresh";
 			this.toolStripMenuItemRefresh.ShortcutKeyDisplayString = "F5";
 			this.toolStripMenuItemRefresh.ShortcutKeys = System.Windows.Forms.Keys.F5;
-			this.toolStripMenuItemRefresh.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItemRefresh.Size = new System.Drawing.Size(138, 22);
 			this.toolStripMenuItemRefresh.Text = "&Refresh";
 			this.toolStripMenuItemRefresh.ToolTipText = "Refresh";
 			this.toolStripMenuItemRefresh.Click += new System.EventHandler(this.ToolStripMenuItemRefresh_Click);
@@ -372,7 +373,7 @@
 			this.toolStripMenuItemClearList.Name = "toolStripMenuItemClearList";
 			this.toolStripMenuItemClearList.ShortcutKeyDisplayString = "F8";
 			this.toolStripMenuItemClearList.ShortcutKeys = System.Windows.Forms.Keys.F8;
-			this.toolStripMenuItemClearList.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItemClearList.Size = new System.Drawing.Size(138, 22);
 			this.toolStripMenuItemClearList.Text = "Clear list";
 			this.toolStripMenuItemClearList.ToolTipText = "Clear list";
 			this.toolStripMenuItemClearList.Click += new System.EventHandler(this.ToolStripMenuItemClearList_Click);
@@ -384,7 +385,7 @@
 			this.toolStripMenuItemAbout.Name = "toolStripMenuItemAbout";
 			this.toolStripMenuItemAbout.ShortcutKeyDisplayString = "F1";
 			this.toolStripMenuItemAbout.ShortcutKeys = System.Windows.Forms.Keys.F1;
-			this.toolStripMenuItemAbout.Size = new System.Drawing.Size(180, 22);
+			this.toolStripMenuItemAbout.Size = new System.Drawing.Size(126, 22);
 			this.toolStripMenuItemAbout.Text = "&About";
 			this.toolStripMenuItemAbout.ToolTipText = "About";
 			this.toolStripMenuItemAbout.Click += new System.EventHandler(this.ToolStripMenuItemAbout_Click);
@@ -502,6 +503,12 @@
 			this.toolStripButtonExit.ToolTipText = "Exit";
 			this.toolStripButtonExit.Click += new System.EventHandler(this.ToolStripButtonExit_Click);
 			// 
+			// backgroundWorker
+			// 
+			this.backgroundWorker.WorkerReportsProgress = true;
+			this.backgroundWorker.WorkerSupportsCancellation = true;
+			this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BackgroundWorker_DoWork);
+			// 
 			// HasListerForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -573,6 +580,7 @@
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSaveAsText;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSaveAsCsv;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSaveAsHtml;
+		private System.ComponentModel.BackgroundWorker backgroundWorker;
 	}
 }
 
