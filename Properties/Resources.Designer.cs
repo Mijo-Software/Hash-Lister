@@ -163,6 +163,16 @@ namespace HashLister.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fugue_drive_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue_drive_16_shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fugue_folder_open_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-folder-open-16-shadowless", resourceCulture);
@@ -176,6 +186,16 @@ namespace HashLister.Properties {
         internal static System.Drawing.Bitmap fugue_folder_open_document_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-folder-open-document-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_gear_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue_gear_16_shadowless", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +223,16 @@ namespace HashLister.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fugue_information_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue_information_16_shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fugue_navigation_000_button_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-navigation-000-button-16-shadowless", resourceCulture);
@@ -223,9 +253,39 @@ namespace HashLister.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fugue_printer_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue_printer_16_shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fugue_property_16_shadowless {
             get {
                 object obj = ResourceManager.GetObject("fugue-property-16-shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_question_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue_question_16_shadowless", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fugue_wrench_16_shadowless {
+            get {
+                object obj = ResourceManager.GetObject("fugue_wrench_16_shadowless", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
